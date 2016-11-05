@@ -31,22 +31,6 @@
 
       <!--<ul class="listings"></ul> -->
 
-
-<!--Sign Up-->
-<div id="signUp">
-  <h3>Sign Up</h3>
-  <form name="signUpForm" action="javascript:addListing()">
-  <div>
-    <label>Email:</label> <input clas="email row" name="Email" type="text"/>
-  </div>
-  <div>
-    <label>Password:</label> <input class="password row" name="Password" type="text"/>
-  </div>
-  <div class="rowRight">
-    <input id="signUpButton" class="button" name="Sign Up" type="submit" value="Sign Up"/>
-  </div>
-</div>
-
 <!--Home Screen-->
 <div id="home-page">
   <div id="level">
@@ -75,12 +59,21 @@
   </div>
   <div>
     <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
-</div>
+  </div>
+  <div>
+    <input id="relayButton" class="button" name="Relay"  type="submit" value="Relay"/>
+    <input id="showRelayButton" class="button" name="Show Relay"  type="submit" value="Show Relay"/>
+  </div>
+
+  <!-- Relay view -->
+  <div id="relayMap">
+    <img src="../img/relayMap.jpg" altText="Relay Map"/>
+  </div>
 
 <!--Profile-->
 <div id="profile-page">
   <h3>My Profile</h3>
-    <img id="profile-image">profilePic</img>
+    <img id="../img/personid.jpg" altText="Hi! This is me!"</>
     <p id="user-name">User Name</p>
   </div>
   <div id="user-points">
@@ -96,7 +89,9 @@
 <!--Leaderboard-->
 <div id="leaderboard">
 <h3>Leaderboard</h3>
-<button>Challenge Friends!</button>
+<input id="challengeButton" class="button" name="Challenge" type="submit" value="Challenge Friends!">
+</div>
+<div>
   <ul>
     <li class="friends">Friend1</li>
     <li class="friends">Friend2</li>
