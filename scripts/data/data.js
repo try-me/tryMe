@@ -6,56 +6,54 @@ function User () {
   points: ,
   challenges: , //recently done challenges does this have a timeframe?
   location: , //current loc
-  can_challenge: ,
-  can_locate: ,
+  canChallenge: ,
+  canLocate: ,
   level: , //current level of comfort
   activities: , //types of activities willing to do
   streak: , //latest streak
   challenged: , //have you been challenged?
-  daily_comp: , //is your daily challenge complete?
-  daily_challenge: , //todays challenge
-  best_streak: , //best streak ever
+  dailyComp: , //is your daily challenge complete?
+  dailyChallenge: , //todays challenge
+  bestStreak: , //best streak ever
   weight: ,
-  g_weight: ,
+  gWeight: ,
   days: ,
-  g_days: ,
+  gDays: ,
   miles: ,
-  g_miles: ,
+  gMiles: ,
   steps: ,
-  g_steps:
+  gSteps:
 };
 
 function Challenges () {
-  sun_low: ,
-  sun_med: ,
-  sun_high: ,
-  mon_low: ,
-  mon_med: ,
-  mon_high: ,
-  tues_low: ,
-  tues_med: ,
-  tues_high: ,
-  weds_low: ,
-  weds_med: ,
-  weds_high: ,
-  thurs_low: ,
-  thurs_med: ,
-  thurs_high: ,
-  fri_low: ,
-  fri_med: ,
-  fri_high: ,
-  sat_low: ,
-  sat_med: ,
-  sat_high:
+  activity: ,
+  level: ,
+  distance: ,
+  points:
 }
 
 function Badges () {
-  start_bdg: ,
-  goal_bdg: ,
-  mile_bdg: ,
-  inspo_bdg: , //all given challenges and received challenges completed
-  leader_bdg: ,
-  steps_bdg: ,
-  ghost_bdg: ,
-  days_bdg:    
+  startBdg: ,
+  goalBdg: ,
+  mileBdg: ,
+  inspoBdg: , //all given challenges and received challenges completed
+  leaderBdg: ,
+  stepsBdg: ,
+  ghostBdg: ,
+  daysBdg:
 }
+
+
+var runLow = new Challenges("run", "low", 3);
+var runMed = new Challenges("run", "med", 5);
+var runHigh = new Challenges("run", "high", 10);
+var walkLow = new Challenges("walk", "low", 15);
+var walkMed = new Challenges("walk", "med", 30);
+var walkHigh = new Challenges("walk", "high", 45);
+var bikeLow = new Challenges("bike", "low", 5);
+var bikeMed = new Challenges("bike", "med", 10);
+var bikeHigh = new Challenges("bike", "high", 20);
+
+var startBdg = new Badges("");
+var inspoBdg = new Badges("");
+var ghostBdg = new Badges("");
