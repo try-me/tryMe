@@ -6,3 +6,10 @@ This code was written for the WE Code Hackathon 2016 in Portland, OR.  It is a s
 
 ## Team Memebers
 Stephanie Caulley
+Molly Christison
+Alia Ward
+Mary Anne Thygesen
+Anna Sindler
+
+Install
+1. 
