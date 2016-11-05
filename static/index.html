@@ -12,24 +12,22 @@
       </div>
 
 <!--Login-->
-      <div id="apparel-listing">
-        <h3>Login</h3>
+      <div id="login">
+        <p>Login</p>
         <form name="myform" action="javascript:addListing()">
-          <div class="row">
-            <label>Email:</label>  <input id="author-input" name="Email" type="text"/>
+          <div>
+            <label>Email:</label>  <input id="email" class="row" name="Email" type="text"/>
           </div>
-          <div class="row">
-            <label>Password:</label>  <input id="desc-input" name="Password" type="text"/>
+          <div>
+            <label>Password:</label>  <input id="password" class="row" name="Password" type="text"/>
           </div>
-          <div class="row right">
-            <input id="submitButton" name="Submit"  type="submit" value="Login"/>
+          <div class="rowRight">
+            <input id="loginButton" class="button" name="Login"  type="submit" value="Login"/>
+            <input id="registerButton" class="button" name="Register" type="submit" value="Sign Up"/>
           </div>
         </form>
       </div>
 
-      <div>
-        <input id="submitButton" name="Submit" type="submit" value="Sign Up"/>
-      </div>
 
       <ul class="listings"></ul>
 
