@@ -1,5 +1,5 @@
 function homeView() {
-
+  
 };
 
 function logIn() {

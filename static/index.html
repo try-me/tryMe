@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="reset.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/modal.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
     <div class="wrapper">
       <div id="header">
           <h1>Try Me!</h1>
       </div>
-
 <!--Login-->
       <div id="login">
         <p>Login</p>
-        <form name="myform" action="javascript:addListing()">
+        <form name="myform">
           <div>
             <label>Email:</label>  <input id="email" class="row" name="Email" type="text"/>
           </div>
@@ -27,41 +26,28 @@
           </div>
         </form>
       </div>
-
-
-      <ul class="listings"></ul>
-
     </div>
-
-<!--Home Screen-->
-<!-- <div>
-  <div id="home-header">
-      <h1>Try Me!</h1>
-  </div> -->
-
 <div id="home-page">
-  <div id="level">
-  <h3>Select Level</h3>
-  <ul>
-    <li class="level-btn">Easy</li>
-    <li class="level-btn">Medium</li>
-    <li class="level-btn">Hard</li>
-  </ul>
-  </div>
-
-<div id="daily-challenge">
-  <h3>Daily Challenge</h3>
-  <div class="dropdown">
-    <select name="select">
-      <option value="run">Run</option>
-      <option value="walk">Walk</option>
-      <option value="bike">Bike</option>
-    </select>
-  </div>
-
-  <div id="creatChallenge" class="modal">
+  <div id="createChallenge" class="modal">
     <div class="content">
-        <p>Enter challenge...</p>
+      <div id="level">
+      <h3>Select Level</h3>
+      <ul>
+        <li class="level-btn">Easy</li>
+        <li class="level-btn">Medium</li>
+        <li class="level-btn">Hard</li>
+      </ul>
+      </div>
+
+    <div id="daily-challenge">
+      <h3>Daily Challenge</h3>
+      <div class="dropdown">
+        <select name="select">
+          <option value="run">Run</option>
+          <option value="walk">Walk</option>
+          <option value="bike">Bike</option>
+        </select>
+      </div>
     </div>
   </div>
   <div>
@@ -75,6 +61,6 @@
 
 </div>
 	<script src="jquery-1.9.0.js"></script>
-	<script src="listings.js"></script>
+  <script src="../scripts/views/views.js"></script>
 	</body>
 </html>
