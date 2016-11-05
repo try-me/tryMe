@@ -1,10 +1,14 @@
 body {
-  background-color: #efefef;
+  /*background-color: #efefef; */
+  background-color: #2F063B;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 64px;
+  font-weight: bold;
+  color: #91E0E3;
+
 }
 
 .wrapper {
@@ -16,9 +20,10 @@ h1 {
   color: #000000;
   margin: 50px;
   padding: 10px 20px 10px 20px;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF; */
   border-radius: 5px;
   -moz-border-radius: 5px;
+  text-align: center;
 }
 
 p {
@@ -27,6 +32,7 @@ p {
   font-weight: bold;
   text-align: left;
   margin-bottom: 15px;
+  color: white;
 }
 
 label {
@@ -35,6 +41,7 @@ label {
   font-size: 20px;
   margin-right: 20px;
   width: 100px;
+  color: white;
 }
 
 input {
@@ -47,22 +54,35 @@ input {
   text-align: right;
 }
 
-#submitButton {
-  color: #000000;
+.rowRight {
+/*  color: #000000;
   background-color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: none;
+  */
+}
+
+.row {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.button {
+  color: #000000;
+  /*background-color: #FFFFFF;*/
   border-radius: 5px;
   -moz-border-radius: 5px;
   border: none;
 }
 
-#apparel-listing {
+#login {
   position: relative;
   margin: 20px 50px;
-  background-color: #222;
+  /*background-color: #222; */
   border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 20px;
-  color: #FFFFFF;
   font-size: 17px;
   line-height: 25px;
 }
@@ -116,4 +136,3 @@ li {
   text-decoration: none;
   background-color: #FFA900;
 }
-
