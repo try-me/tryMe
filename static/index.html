@@ -16,10 +16,10 @@
         <h3>Login</h3>
         <form name="myform" action="javascript:addListing()">
           <div>
-            <label>Email:</label>  <input id="email" class="row" name="Email" type="text"/>
+            <label>Email:</label>  <input class="email row" name="Email" type="text"/>
           </div>
           <div>
-            <label>Password:</label>  <input id="password" class="row" name="Password" type="text"/>
+            <label>Password:</label>  <input class="password row" name="Password" type="text"/>
           </div>
           <div>
             <input id="loginButton" class="button" name="Login"  type="submit" value="Login"/>
@@ -32,12 +32,22 @@
       <!--<ul class="listings"></ul> -->
 
 
-<!--Home Screen-->
-<!-- <div>
-  <div id="home-header">
-      <h1>Try Me!</h1>
-  </div> -->
+<!--Sign Up-->
+<div id="signUp">
+  <h3>Sign Up</h3>
+  <form name="signUpForm" action="javascript:addListing()">
+  <div>
+    <label>Email:</label> <input clas="email row" name="Email" type="text"/>
+  </div>
+  <div>
+    <label>Password:</label> <input class="password row" name="Password" type="text"/>
+  </div>
+  <div class="rowRight">
+    <input id="signUpButton" class="button" name="Sign Up" type="submit" value="Sign Up"/>
+  </div>
+</div>
 
+<!--Home Screen-->
 <div id="home-page">
   <div id="level">
   <h3>Select Level</h3>
@@ -70,11 +80,31 @@
 <!--Profile-->
 <div id="profile-page">
   <h3>My Profile</h3>
-
-
+    <img id="profile-image">profilePic</img>
+    <p id="user-name">User Name</p>
+  </div>
+  <div id="user-points">
+    <p>Number of Points</p>
+  </div>
+  <div id="user-badges">
+    <img>Badge1</img>
+    <img>Badge2</img>
+    <img>Badge3</img>
+  </div>
 </div>
 
-    </div>
+<!--Leaderboard-->
+<div id="leaderboard">
+<h3>Leaderboard</h3>
+<button>Challenge Friends!</button>
+  <ul>
+    <li class="friends">Friend1</li>
+    <li class="friends">Friend2</li>
+    <li class="friends">Friend3</li>
+  </ul>
+</div>
+
+
 	<script src="jquery-1.9.0.js"></script>
 	<script src="listings.js"></script>
 	</body>
