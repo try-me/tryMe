@@ -85,12 +85,21 @@
   </div>
   <div>
     <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
-</div>
+  </div>
+  <div>
+    <input id="relayButton" class="button" name="Relay"  type="submit" value="Relay"/>
+    <input id="showRelayButton" class="button" name="Show Relay"  type="submit" value="Show Relay"/>
+  </div>
+
+  <!-- Relay view -->
+  <div id="relayMap">
+    <img src="../img/relayMap.jpg" altText="Relay Map"/>
+  </div>
 
 <!--Profile-->
 <div id="profile-page">
   <h3>My Profile</h3>
-    <img id="profile-image">profilePic</img>
+    <img id="../img/personid.jpg" altText="Hi! This is me!"</>
     <p id="user-name">User Name</p>
   </div>
   <div id="user-points">
@@ -109,7 +118,9 @@
 <!--Leaderboard-->
 <div id="leaderboard">
 <h3>Leaderboard</h3>
-<button>Challenge Friends!</button>
+<input id="challengeButton" class="button" name="Challenge" type="submit" value="Challenge Friends!">
+</div>
+<div>
   <ul>
     <li class="friends">Friend1</li>
     <li class="friends">Friend2</li>
