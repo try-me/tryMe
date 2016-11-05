@@ -1,61 +1,58 @@
-function User (name, pwd, email, badges, points, challenges, location, activities, ) {
-  userName: this.name,
-  passWord: this.pwd,
-  email: this.email,
-  badges: this.badges, //acheived badges
-  points: this.points,
-  challenges: this.challenges, //recently done challenges does this have a timeframe?
-  location: this.location, //current loc
-  can_challenge: this.canChallenge,
-  can_locate: this.canLocate,
-  level: this.level, //current level of comfort
-  activities: this.activities, //types of activities willing to do
-  streak: this.streak, //latest streak
-  challenged: this.challenged, //have you been challenged?
-  daily_comp: this.dailyComp, //is your daily challenge complete?
-  daily_challenge: this.dailyChallenge, //todays challenge
-  best_streak: this.bestStreak, //best streak ever
-  weight: this.weight,
-  g_weight: this.gWeight,
-  days: this.days,
-  g_days: this.gDays,
-  miles: this.miles,
-  g_miles: this.gMiles,
-  steps: this.steps,
-  g_steps: this.gSteps
+function User(name, pwd, email, weight, gWeight, days, gDays, miles, gMiles, steps, gSteps) {
+  this.userName = name;
+  this.passWord = pwd;
+  this.email = email;
+  this.badges = []; //acheived badges
+  this.points = 0;
+  this.challenges = [] //recently done challenges does this have a timeframe?
+  this.location = location; //current loc
+  this.canChallenge = ; //bolean
+  this.canLocate = ; //bolean
+  this.level = ; //current level of comfort, set on login
+  this.activities =  ; //types of activities willing to do, set on login
+  this.streak = ; //latest streak
+  this.challenged = ; //have you been challenged?
+  this.dailyComp =  ; //is your daily challenge complete?
+  this.dailyChallenge = ; //todays challenge
+  this.bestStreak = ; //best streak ever
+  this.weight = weight;
+  this.gWeight = gWeight;
+  this.days = days;
+  this.gDays = gDays;
+  this.miles = miles;
+  this.gMiles = gMiles;
+  this.steps = steps;
+  this.gSteps = gSteps;
 };
 
-function Challenges () {
-  sun_low: ,
-  sun_med: ,
-  sun_high: ,
-  mon_low: ,
-  mon_med: ,
-  mon_high: ,
-  tues_low: ,
-  tues_med: ,
-  tues_high: ,
-  weds_low: ,
-  weds_med: ,
-  weds_high: ,
-  thurs_low: ,
-  thurs_med: ,
-  thurs_high: ,
-  fri_low: ,
-  fri_med: ,
-  fri_high: ,
-  sat_low: ,
-  sat_med: ,
-  sat_high:
+function Challenges(activity, level, distance) {
+  this.activity = activity;
+  this.level = level;
+  this.distance = disctance;
+  this.points = 50;
 }
 
-function Badges () {
-  start_bdg: ,
-  goal_bdg: ,
-  mile_bdg: ,
-  inspo_bdg: , //all given challenges and received challenges completed
-  leader_bdg: ,
-  steps_bdg: ,
-  ghost_bdg: ,
-  days_bdg:
+function Badges() {
+  this.startBdg = ;
+  this.goalBdg = ;
+  this.mileBdg = ;
+  this.inspoBdg = ; //all given challenges and received challenges completed
+  this.leaderBdg = ;
+  this.stepsBdg = ;
+  this.ghostBdg = ;
+  this.daysBdg = ;
 }
+
+var runLow = new Challenges("run", "low", 3);
+var runMed = new Challenges("run", "med", 5);
+var runHigh = new Challenges("run", "high", 10);
+var walkLow = new Challenges("walk", "low", 15);
+var walkMed = new Challenges("walk", "med", 30);
+var walkHigh = new Challenges("walk", "high", 45);
+var bikeLow = new Challenges("bike", "low", 5);
+var bikeMed = new Challenges("bike", "med", 10);
+var bikeHigh = new Challenges("bike", "high", 20);
+
+var startBdg = new Badges("");
+var inspoBdg = new Badges("");
+var ghostBdg = new Badges("");
