@@ -20,7 +20,6 @@
             <input id="registerButton" class="button" name="Register" type="submit" value="Sign Up"/>
         </form>
       </div>
-
   <div id="personalInfo">
     <label>Name: </label<input type="text" name="Name" value="Name">
     <label>Location: </label><input type="text" name="Location" value="Location">
@@ -61,27 +60,41 @@
   </div>
   <div>
     <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
-</div>
+  </div>
+  <div>
+    <input id="relayButton" class="button" name="Relay"  type="submit" value="Relay"/>
+    <input id="showRelayButton" class="button" name="Show Relay"  type="submit" value="Show Relay"/>
+  </div>
+
+  <!-- Relay view -->
+  <div id="relayMap">
+    <img src="../img/relayMap.jpg" altText="Relay Map"/>
+  </div>
 
 <!--Profile-->
 <div id="profile-page">
   <h3>My Profile</h3>
-    <img id="profile-image">profilePic</img>
+    <img id="../img/personid.jpg" altText="Hi! This is me!"</>
     <p id="user-name">User Name</p>
   <div id="user-points">
     <p>Number of Points</p>
   </div>
   <div id="user-badges">
-    <img>Badge1</img>
-    <img>Badge2</img>
-    <img>Badge3</img>
+    <img src="../img/GetStarted.jpg" />
+    <p class="imageText">Getting Started</p>
+    <img src="../img/Leader.jpg" />
+    <p class="imageText">Be the Leader You Want To Follow</p>
+    <img src="../img/Ghost.jpg" />
+    <p class="imageText">Scary Fast</p>
   </div>
 </div>
 
 <!--Leaderboard-->
 <div id="leaderboard">
 <h3>Leaderboard</h3>
-<button>Challenge Friends!</button>
+<input id="challengeButton" class="button" name="Challenge" type="submit" value="Challenge Friends!">
+</div>
+<div>
   <ul>
     <li class="friends">Friend1</li>
     <li class="friends">Friend2</li>
