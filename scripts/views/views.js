@@ -15,5 +15,7 @@ function settingsView() {
 };
 
 function profile() {
-  
+
 };
+
+//modal
