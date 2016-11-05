@@ -1,7 +1,7 @@
-function User(name, pwd, email, weight, gWeight, days, gDays, miles, gMiles, steps, gSteps) {
-  this.userName = name;
+function User(email, pwd, weight, gWeight, days, gDays, miles, gMiles, steps, gSteps) {
   this.passWord = pwd;
   this.email = email;
+  this.lastLogOn = lastLogOn;
   this.badges = []; //acheived badges
   this.points = 0;
   this.challenges = [] //recently done challenges does this have a timeframe?
@@ -56,10 +56,3 @@ var bikeHigh = new Challenges("bike", "high", 20);
 var startBdg = new Badges("");
 var inspoBdg = new Badges("");
 var ghostBdg = new Badges("");
-var Chris = new User ("email3@yahoo.com","pword2");
-var Bonnie = new User ("email7@yahoo.com","pwhasg");
-var Chet = new User ("email5@hotmail.com","pw456");
-var Mary = new User ("emailsnall@gmail.com","snallword3");
-var Nancy = new User ("email89@yahoo.com","train34#");
-var Smith = new User ("email99@hotmail.com","purr3434");
-var Jan = new User ("email77@yahoo.com","bark00");

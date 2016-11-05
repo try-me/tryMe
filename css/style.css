@@ -1,0 +1,130 @@
+body {
+  /*background-color: #efefef; */
+  background-color: #2F063B;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #91E0E3;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 15px;
+  color: white;
+}
+
+label {
+  display: inline-block;
+  font-style: bold;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 100px;
+  color: white;
+}
+
+input {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 5px;
+  font-size: 15px;
+}
+
+li {
+  position: relative;
+  margin: 20px 50px;
+  background-color: #91E0E3;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 20px;
+  color: #2F063B;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color:#000000;
+  background-color: #FFFFFF;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+h6 {
+  font-size:11px;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 70px auto 0;
+}
+
+.right {
+  text-align: right;
+}
+
+.row {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.button {
+  color: #000000;
+  /*background-color: #FFFFFF;*/
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: none;
+}
+
+.page {
+  position: relative;
+  margin: 20px 50px;
+  /*background-color: #222; */
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.listings {
+  width:100%;
+}
+
+.sold {
+  text-decoration: line-through;
+  background-color: #1142AA;
+}
+
+.editing {
+  text-decoration: none;
+  background-color: ##91E0E3;
+}
+
+#header {
+  color: #000000;
+  margin: 50px;
+  padding: 10px 20px 10px 20px;
+  /*background-color: #FFFFFF; */
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
+}
+
+#personalInfo, #home-page, #daily-challenge, #createChallenge, #profile-page, #leaderboard {
+  display: none;
+}

@@ -7,7 +7,7 @@ function logIn() {
 };
 
 function leaderBoard() {
-
+  
 };
 
 function settingsView() {
