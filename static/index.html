@@ -31,6 +31,32 @@
 
       <!--<ul class="listings"></ul> -->
 
+
+<!--Sign Up-->
+<div id="signUp">
+  <h3>Sign Up</h3>
+  <form name="signUpForm" action="javascript:addListing()">
+  <div>
+    <label>Email:</label> <input clas="email row" name="Email" type="text"/>
+  </div>
+  <div>
+    <label>Password:</label> <input class="password row" name="Password" type="text"/>
+  </div>
+  <div class="rowRight">
+    <input id="signUpButton" class="button" name="Sign Up" type="submit" value="Sign Up"/>
+  </div>
+  <div id="personalInfo">
+    <input type="text" name="Name" value="Name">
+    <input type="text" name="Location" value="Location">
+    <input type="text" name="Weight" value="Weight">
+    <input type="checkbox" name="canChallenge" value="Accept Challenges?">
+    <input type="checkbox" name="canLocate" value="Show Location?">
+    <input type="text" name="GWeight" value="Goal Weight">
+    <input type="text" name="GDays" value="Goal Active Streak">
+    <input type="text" name="GMiles" value="Goal Number of Miles">
+    <input type="text" name="GSteps" value="Goal Number of Steps">
+</div>
+
 <!--Home Screen-->
 <div id="home-page">
   <div id="level">
@@ -80,9 +106,12 @@
     <p>Number of Points</p>
   </div>
   <div id="user-badges">
-    <img>Badge1</img>
-    <img>Badge2</img>
-    <img>Badge3</img>
+    <img src="../img/GetStarted.jpg" />
+    <p class="imageText">Getting Started</p>
+    <img src="../img/Leader.jpg" />
+    <p class="imageText">Be the Leader You Want To Follow</p>
+    <img src="../img/Ghost.jpg" />
+    <p class="imageText">Scary Fast</p>
   </div>
 </div>
 
@@ -99,6 +128,16 @@
   </ul>
 </div>
 
+<!--Settings-->
+
+<!-- <div id="settings">
+  <form>
+    <input type="text" name="email" value="Email">
+    <input type="text" name="location" value="Location">
+    <input type="checkbox" name="canLocate" value="Enable Location?">
+    <input type="checkbox" name="challenges" value="Challenges">
+  </form>
+</div> -->
 
 	<script src="jquery-1.9.0.js"></script>
 	<script src="listings.js"></script>
