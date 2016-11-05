@@ -10,10 +10,6 @@ h1 {
   color: #91E0E3;
 }
 
-label {
-  margin: 10px;
-}
-
 .wrapper {
   width: 700px;
   margin: 70px auto 0;
@@ -36,10 +32,6 @@ h3 {
   text-align: left;
   margin-bottom: 15px;
   color: white;
-}
-
-.dropdown {
-  margin: 10px;
 }
 
 label {
@@ -72,7 +64,6 @@ input {
   border-radius: 5px;
   -moz-border-radius: 5px;
   border: none;
-  margin: 10px;
 }
 
 .page {
@@ -128,14 +119,6 @@ li {
   line-height: 25px;
 }
 
-#leaderboard h3, button {
-  display: inline-block;
-}
-
-.friends {
-  text-align: center;
-}
-
 .sold {
   text-decoration: line-through;
   background-color: #1142AA;
@@ -157,7 +140,3 @@ img {
   color: white;
   font-weight: bold;
 }
-
-/*#personalInfo, #home-page, #daily-challenge, #createChallenge, #profile-page, #leaderboard {
-  display: none;
-}*/
