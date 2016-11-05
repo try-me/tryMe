@@ -8,12 +8,12 @@
 
     <div class="wrapper">
       <div id="header">
-          <h1>Try Me!</h1>
+          <h1>Try Me</h1>
       </div>
 
 <!--Login-->
       <div id="login">
-        <p>Login</p>
+        <h3>Login</h3>
         <form name="myform" action="javascript:addListing()">
           <div>
             <label>Email:</label>  <input id="email" class="row" name="Email" type="text"/>
@@ -21,7 +21,7 @@
           <div>
             <label>Password:</label>  <input id="password" class="row" name="Password" type="text"/>
           </div>
-          <div class="rowRight">
+          <div>
             <input id="loginButton" class="button" name="Login"  type="submit" value="Login"/>
             <input id="registerButton" class="button" name="Register" type="submit" value="Sign Up"/>
           </div>
@@ -29,9 +29,8 @@
       </div>
 
 
-      <ul class="listings"></ul>
+      <!--<ul class="listings"></ul> -->
 
-    </div>
 
 <!--Home Screen-->
 <!-- <div>
@@ -59,21 +58,23 @@
     </select>
   </div>
 
-  <div id="creatChallenge" class="modal">
+  <div id="createChallenge" class="modal">
     <div class="content">
         <p>Enter challenge...</p>
     </div>
   </div>
   <div>
-    <input id="randomButton" name="Random"  type="submit" value="Random"/>
+    <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
 </div>
 
 <!--Profile-->
-<di id="profile-page">
+<div id="profile-page">
   <h3>My Profile</h3>
 
 
 </div>
+
+    </div>
 	<script src="jquery-1.9.0.js"></script>
 	<script src="listings.js"></script>
 	</body>
