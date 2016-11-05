@@ -8,25 +8,9 @@ h1 {
   font-size: 64px;
   font-weight: bold;
   color: #91E0E3;
-
 }
 
-.wrapper {
-  width: 700px;
-  margin: 70px auto 0;
-}
-
-#header {
-  color: #000000;
-  margin: 50px;
-  padding: 10px 20px 10px 20px;
-  /*background-color: #FFFFFF; */
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  text-align: center;
-}
-
-p {
+h3 {
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
@@ -50,45 +34,17 @@ input {
   font-size: 15px;
 }
 
-.right {
-  text-align: right;
-}
-
-.rowRight {
-/*  color: #000000;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  border: none;
-  */
-}
-
-.row {
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-
-.button {
-  color: #000000;
-  /*background-color: #FFFFFF;*/
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  border: none;
-}
-
-#login {
+li {
   position: relative;
   margin: 20px 50px;
-  /*background-color: #222; */
+  background-color: #91E0E3;
   border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 20px;
+  color: #2F063B;
+  font-weight: bold;
   font-size: 17px;
   line-height: 25px;
-}
-
-.listings {
-  width:100%;
 }
 
 a {
@@ -111,20 +67,42 @@ h6 {
   font-size:11px;
 }
 
-h3 {
-  font-size: 22px;
+.wrapper {
+  width: 700px;
+  margin: 70px auto 0;
 }
 
-li {
+.right {
+  text-align: right;
+}
+
+.row {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.button {
+  color: #000000;
+  /*background-color: #FFFFFF;*/
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: none;
+}
+
+.page {
   position: relative;
   margin: 20px 50px;
-  background-color: #FF6600;
+  /*background-color: #222; */
   border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 20px;
-  color: #FFFFFF;
   font-size: 17px;
   line-height: 25px;
+  text-align: center;
+}
+
+.listings {
+  width:100%;
 }
 
 .sold {
@@ -134,5 +112,15 @@ li {
 
 .editing {
   text-decoration: none;
-  background-color: #FFA900;
+  background-color: ##91E0E3;
+}
+
+#header {
+  color: #000000;
+  margin: 50px;
+  padding: 10px 20px 10px 20px;
+  /*background-color: #FFFFFF; */
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
 }

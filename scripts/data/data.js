@@ -1,5 +1,4 @@
-function User(name, pwd, email, weight, gWeight, days, gDays, miles, gMiles, steps, gSteps) {
-  this.userName = name;
+function User(email, pwd, weight, gWeight, days, gDays, miles, gMiles, steps, gSteps) {
   this.passWord = pwd;
   this.email = email;
   this.lastLogOn = lastLogOn;
@@ -57,5 +56,3 @@ var bikeHigh = new Challenges("bike", "high", 20);
 var startBdg = new Badges("");
 var inspoBdg = new Badges("");
 var ghostBdg = new Badges("");
-
-var charlie = new User("password", "text@email.com");

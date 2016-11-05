@@ -1,5 +1,5 @@
 function homeView() {
-  
+
 };
 
 function logIn() {
@@ -7,7 +7,7 @@ function logIn() {
 };
 
 function leaderBoard() {
-
+  
 };
 
 function settingsView() {
