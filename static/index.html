@@ -16,57 +16,92 @@
         <form name="myform">
             <label>Email:</label>  <input class="email row" name="Email" type="text"/>
             <label>Password:</label>  <input class="password row" name="Password" type="text"/>
-            <input id="loginButton" class="button" name="Login"  type="submit" value="Login"/>
+            <input id="loginButton" class="button" name="Login" type="submit" value="Login"/>
             <input id="registerButton" class="button" name="Register" type="submit" value="Sign Up"/>
         </form>
       </div>
-      <!-- Modal -->
-      <div id="createChallenge" class="modal">
-        <div class="content">
-          <h3>Select Level</h3>
-          <ul id="level">
-            <li class="level-btn">Easy</li>
-            <li class="level-btn">Medium</li>
-            <li class="level-btn">Hard</li>
-          </ul>
-      <div id="daily-challenge">
-        <h3>Daily Challenge</h3>
-          <select name="select">
-            <option value="run">Run</option>
-            <option value="walk">Walk</option>
-            <option value="bike">Bike</option>
-          </select>
-        </div>
-      </div>
+
+  <div id="personalInfo">
+    <label>Name: </label<input type="text" name="Name" value="Name">
+    <label>Location: </label><input type="text" name="Location" value="Location">
+    <label>Weight: </label><input type="text" name="Weight" value="Weight">
+    <label>Accept Challenges?: </label><input type="checkbox" name="canChallenge" value="Accept Challenges?">
+    <label>Show Location?: </label><input type="checkbox" name="canLocate" value="Show Location?">
+    <label>Target Weight: </label><input type="text" name="GWeight" value="Goal Weight">
+    <label>Goal Active Streak: </label><input type="text" name="GDays" value="Goal Active Streak">
+    <label>Goal Number of Miles: </label><input type="text" name="GMiles" value="Goal Number of Miles">
+    <label>Goal Number of Steps: </label><input type="text" name="GSteps" value="Goal Number of Steps">
+</div>
+
+<!--Home Screen-->
+<div id="home-page">
+  <div id="level">
+  <h3>Select Level</h3>
+  <ul>
+    <li class="level-btn">Easy</li>
+    <li class="level-btn">Medium</li>
+    <li class="level-btn">Hard</li>
+  </ul>
+  </div>
+
+<div id="daily-challenge">
+  <h3>Daily Challenge</h3>
+  <div class="dropdown">
+    <select name="select">
+      <option value="run">Run</option>
+      <option value="walk">Walk</option>
+      <option value="bike">Bike</option>
+    </select>
+  </div>
+
+  <div id="createChallenge" class="modal">
+    <div class="content">
+        <p>Enter challenge...</p>
     </div>
-      <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
-    <!--Profile-->
-    <div id="profile-page">
-      <h3>My Profile</h3>
-        <img id="profile-image">profilePic</img>
-        <p id="user-name">User Name</p>
-      </div>
-      <div id="user-points">
-        <p>Number of Points</p>
-      </div>
-      <div id="user-badges">
-        <img>Badge1</img>
-        <img>Badge2</img>
-        <img>Badge3</img>
-      </div>
-    </div>
-    <!--Leaderboard-->
-    <div id="leaderboard">
-      <h3>Leaderboard</h3>
-      <button>Challenge Friends!</button>
-        <ul>
-          <li class="friends">Friend1</li>
-          <li class="friends">Friend2</li>
-          <li class="friends">Friend3</li>
-        </ul>
-    </div>
-  	<script src="jquery-1.9.0.js"></script>
-    <script src="../scripts/views/views.js"></script>
-    </main>
+  </div>
+  <div>
+    <input id="randomButton" class="button" name="Random"  type="submit" value="Random"/>
+</div>
+
+<!--Profile-->
+<div id="profile-page">
+  <h3>My Profile</h3>
+    <img id="profile-image">profilePic</img>
+    <p id="user-name">User Name</p>
+  <div id="user-points">
+    <p>Number of Points</p>
+  </div>
+  <div id="user-badges">
+    <img>Badge1</img>
+    <img>Badge2</img>
+    <img>Badge3</img>
+  </div>
+</div>
+
+<!--Leaderboard-->
+<div id="leaderboard">
+<h3>Leaderboard</h3>
+<button>Challenge Friends!</button>
+  <ul>
+    <li class="friends">Friend1</li>
+    <li class="friends">Friend2</li>
+    <li class="friends">Friend3</li>
+  </ul>
+</div>
+
+<!--Settings-->
+
+<!-- <div id="settings">
+  <form>
+    <input type="text" name="email" value="Email">
+    <input type="text" name="location" value="Location">
+    <input type="checkbox" name="canLocate" value="Enable Location?">
+    <input type="checkbox" name="challenges" value="Challenges">
+  </form>
+</div> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="../scripts/views/views.js" type="text/javascript"></script>
+  <script src="../scripts/controler/controler.js" type="text/javascript"></script>
 	</body>
 </html>

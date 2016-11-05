@@ -124,3 +124,7 @@ h6 {
   -moz-border-radius: 5px;
   text-align: center;
 }
+
+#personalInfo, #home-page, #daily-challenge, #createChallenge, #profile-page, #leaderboard {
+  display: none;
+}
